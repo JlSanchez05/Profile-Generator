@@ -1,0 +1,25 @@
+{
+  "name": "profile-generator",
+  "version": "1.0.0",
+  "description": "team profile generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JlSanchez05/Profile-Generator.git"
+  },
+  "author": "J Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JlSanchez05/Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/JlSanchez05/Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
