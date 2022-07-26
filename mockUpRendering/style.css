@@ -1,0 +1,27 @@
+#header {
+  background-color: black;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#header-content h1 {
+  color: #ffff;
+  margin-top: 50px;
+}
+.card-header {
+  background-color: red;
+  color: white;
+}
+
+.card-body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  margin: 100px auto;
+  justify-content: space-evenly;
+  display: flex;
+}
