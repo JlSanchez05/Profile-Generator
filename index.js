@@ -6,7 +6,6 @@ const Engineer = require('./lib/Engineer')
 
 const fs = require('fs')
 const inquirer = require('inquirer')
-const { type } = require('os')
 
 // team array so that i can put all the values of the team being created later
 const team = []
@@ -176,15 +175,14 @@ const addEmployee = ()=>{
             console.log(employee);
         }
 
-        teamArray.push(employee); 
+        team.push(employee); 
 
         if (confirmAddEmployee) {
-            return addEmployee(teamArray); 
+            return addEmployee(team); 
         } else {
-            return teamArray;
+            return team;
         }
     })
 }
 
-managerQuestions()
-addEmployee()
+managerQuestions().then(addEmployee)
