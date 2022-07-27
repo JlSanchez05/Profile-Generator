@@ -8,5 +8,5 @@ const manager = new Manager('Juan',5,'jja@gmail.com',4)
 
 test('getting Manger role',()=>{
     const manager = new Manager('Juan',5,'juan123@gmial.com','jja@gmail.com')
-    expect(manager.getRole()).toEqual('Manger')
+    expect(manager.getRole()).toEqual('Manager')
 })
